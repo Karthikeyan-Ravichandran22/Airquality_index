@@ -2,11 +2,11 @@
 import streamlit as st
 import pickle
 import time
-dtree=pickle.load(open("/Users/karthick/tensorflow-test/Pickle/dtree_regressor_pickle",'rb'))
-linear_reg=pickle.load(open("/Users/karthick/tensorflow-test/Pickle/linerRegression_pickle",'rb'))
-Rfreg=pickle.load(open("/Users/karthick/tensorflow-test/Pickle/RFregressor_pickle",'rb'))
+dtree=pickle.load(open("dtree_regressor_pickle",'rb'))
+linear_reg=pickle.load(open("linerRegression_pickle",'rb'))
+Rfreg=pickle.load(open("RFregressor_pickle",'rb'))
 
-
+#/Users/karthick/tensorflow-test/Pickle/
 
 
     
